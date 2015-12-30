@@ -30,11 +30,15 @@ namespace Concept_Testing
                     
                 }
 
+                file.Close();   
             }
 
-            catch
+            catch(Exception e)
             {
-                 ;
+
+                // Let the user know what went wrong.
+                Console.WriteLine("The file could not be read:");
+                Console.WriteLine(e.Message);
             }
 
             finally

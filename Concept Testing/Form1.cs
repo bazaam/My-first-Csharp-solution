@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TestRealm;
 
 namespace Concept_Testing
 {
@@ -25,6 +26,16 @@ namespace Concept_Testing
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            Console.Write("Hello, world!");
+
+            Test RunTest = new Test();
+            RunTest.RunTests();
+            
         }
     }
 }
