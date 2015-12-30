@@ -10,8 +10,8 @@ namespace Concept_Testing
     {
         string name = "default";
         int level = GlobalVar.DungeonLevel;
-        double damage = GetStats("damage", level);
-        double health = GetStats("health", level);
+        double damage = FileHandler.GetStats("damage", level);
+        double health = FileHandler.GetStats("health", level);
 
     }
 }
