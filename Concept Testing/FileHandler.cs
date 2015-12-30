@@ -7,13 +7,20 @@ using System.Threading.Tasks;
 
 namespace Concept_Testing
 {
-   class FileHandler
+   public class FileHandler
     {
         double dataReturn;
         string fileName;
         string line;
-        void ParseData(string dataTag)
 
+        public FileHandler(string file)
+        {
+            fileName = file;
+        }
+
+
+        private void ParseData(string dataTag)
+            
         {
             StreamReader file = new StreamReader(fileName);
             try

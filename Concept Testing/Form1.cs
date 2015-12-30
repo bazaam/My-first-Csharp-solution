@@ -31,10 +31,6 @@ namespace Concept_Testing
         private void button2_Click(object sender, EventArgs e)
         {
 
-            Console.Write("Hello, world!");
-
-            Test RunTest = new Test();
-            RunTest.RunTests();
             
         }
     }

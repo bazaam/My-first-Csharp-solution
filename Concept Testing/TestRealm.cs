@@ -21,11 +21,7 @@ namespace TestRealm
     {
         public void RunTests()
         {
-            OutputTest TestClassTest = new OutputTest();
-
-            TestClassTest.testOutputString = "TestRealm is working";
-
-            TestClassTest.Output();
+           
         }
 
     };
